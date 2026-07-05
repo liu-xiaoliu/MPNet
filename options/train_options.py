@@ -40,7 +40,7 @@ class TrainOptions(BaseOptions):
         parser.add_argument('--pool_size', type=int, default=0, help='the size of image buffer that stores previously generated images 50')
         parser.add_argument('--lr_policy', type=str, default='linear', help='learning rate policy. [linear | step | plateau | cosine]')
         parser.add_argument('--lr_decay_iters', type=int, default=50, help='multiply by a gamma every lr_decay_iters iterations')
-        parser.add_argument('--dataroot', default='/data/liuyanting/dataset/dehaze/NH_O-HAZY/', help='path to images (should have subfolders trainA, trainB, valA, valB, etc)')
+        parser.add_argument('--dataroot', default='/dataset/dehaze/NH_O-HAZY/', help='path to images (should have subfolders trainA, trainB, valA, valB, etc)')
         parser.add_argument('--batch_size', type=int, default=8, help='input batch size')
         parser.add_argument('--gpu_ids', type=str, default='4,5', help='gpu ids: e.g. 0  0,1,2, 0,2. use -1 for CPU')
         
