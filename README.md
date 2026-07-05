@@ -97,4 +97,3 @@ Our code is developed based on the [contrastive-unpaired-translation (CUT)](http
 
 ## Contact
 For any questions, please contact: 19112024@bjtu.edu.cn
-```
