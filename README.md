@@ -39,10 +39,10 @@ Our experiments are conducted on the following publicly available datasets:
 ---
 
 ## 3. Quick Start (Command Examples)
-### 3.1 Evaluation / Test
-The pretrained checkpoint trained on the BeDDE dataset is included in this repository under the `checkpoints/` directory, which can reproduce the main experimental results reported in the paper.
+### 3.1 Test
 
-Run the official test script to reproduce the reported metrics:
+### 3.1 Evaluation / Test
+We provide the pretrained checkpoint trained on the BeDDE dataset as a test example to reproduce the main experimental results reported in the paper; the checkpoint is shared via Baidu Netdisk, with the download link: https://pan.baidu.com/s/1s5egYjU2ueHTIWGj0toZtg and extraction code: bk7t. Download the entire folder and place it into the `checkpoints/` directory of this repository, then run the official test script to reproduce the reported metrics:
 ```bash
 python test.py --dataroot [path to your dataset]
 ```
