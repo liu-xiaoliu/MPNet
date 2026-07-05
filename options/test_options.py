@@ -14,7 +14,7 @@ class TestOptions(BaseOptions):
         # Dropout and Batchnorm has different behavioir during training and test.
         parser.add_argument('--eval', action='store_true', help='use eval mode during test time.')
         parser.add_argument('--num_test', type=int, default=500, help='how many test images to run')
-        parser.add_argument('--dataroot', default='/data/liuyanting/dataset/dehaze/NH_O-HAZY/test/')
+        parser.add_argument('--dataroot', default='/dataset/dehaze/NH_O-HAZY/test/')
         parser.add_argument('--gpu_ids', type=str, default='0', help='gpu ids: e.g. 0  0,1,2, 0,2. use -1 for CPU')
         parser.add_argument('--batch_size', type=int, default=1, help='input batch size')
 
